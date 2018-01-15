@@ -2,7 +2,7 @@
 	<group name="weapon_bag">
 		<group name="accuracy">
 			<float name="near" value="0.06" />
-			<float name="far" value="0.03" />
+			<float name="far" value="0.035" />
 			<float name="mid" value="0.045" />
 		</group>
 		<group name="aim">
@@ -13,8 +13,8 @@
 			<float name="post_firing_aim_time" value="4" />
 			<float name="post_firing_cooldown_interval" value="0" />
 			<group name="ready_aim_time">
-				<float name="max" value="1.5" />
-				<float name="min" value="1.5" />
+				<float name="max" value="2" />
+				<float name="min" value="2" />
 			</group>
 			<group name="aim_time_multiplier">
 				<float name="near" value="1" />

@@ -19,7 +19,7 @@
 				<instance_reference name="ability" value="abilities\british\modal_ability\commander_ability\aec_defensive_smoke" />
 				<instance_reference name="ability" value="abilities\british\modal_ability\commander_ability\passive_ability\command_vehicle_plane" />
 				<instance_reference name="ability" value="abilities\british\toggle_ability\brit_vehicle_hold_fire_mp" />
-				<instance_reference name="ability" value="abilities\british\modal_ability\accessory_weapons\aec_tread_shots_mp" />
+				<instance_reference name="ability" value="abilities\british\modal_ability\accessory_weapons\aec_tread_shots_vet0_mp" mod="fb1199bb8d5b4f9b97493fc229a3e6ee" />
 				<instance_reference name="ability" value="abilities\aef\toggle_ability\usf_hold_fire_mp" />
 				<instance_reference name="ability" value="abilities\british\timed_ability\brit_vehicle_crew_repair_mp" />
 				<instance_reference name="ability" value="abilities\british\modal_ability\accessory_weapons\aec_tread_shots_vet1_mp" mod="fb1199bb8d5b4f9b97493fc229a3e6ee" />

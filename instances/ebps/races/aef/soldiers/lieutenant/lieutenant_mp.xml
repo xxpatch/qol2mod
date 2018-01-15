@@ -821,8 +821,6 @@
 				</template_reference>
 			</list>
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\leader_ext">
-		</template_reference>
 	</list>
 	<uniqueid name="pbgid" value="2523" />
 </instance>
