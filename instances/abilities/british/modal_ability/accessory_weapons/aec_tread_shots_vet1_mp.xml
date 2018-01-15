@@ -129,7 +129,7 @@
 		</list>
 		<list name="requirements">
 			<template_reference name="required" value="requirements\required_squad_veterancy">
-				<enum name="reason" value="usage" />
+				<enum name="reason" value="usage_and_display" />
 				<locstring name="ui_name" value="11072949" />
 				<float name="veterancy_rank" value="1" />
 			</template_reference>
@@ -147,13 +147,13 @@
 		<instance_reference name="ui_reticule" value="ui_reticule\ability_target_ramming" />
 		<float name="ui_reticule_radius_min" value="2" />
 		<float name="ui_reticule_radius_max" value="2" />
-		<enum name="pending_ability_out_of_range_behaviour" value="ignore_range" />
+		<enum name="pending_ability_out_of_range_behaviour" value="chase" />
 		<enum name="ui_group" value="group_primary" />
 		<string name="ui_targetable_sm_key" value="" />
 		<string name="ui_targetable_on_key" value="" />
 		<string name="ui_targetable_off_key" value="" />
 		<enum name="ui_targetable_receiver" value="local" />
-		<enum name="ui_combine_type" value="intersection" />
+		<enum name="ui_combine_type" value="union" />
 		<enum_table name="ui_modal_highlight">
 			<bool name="world_sector" value="False" />
 			<bool name="map_sector" value="False" />
@@ -163,7 +163,7 @@
 		<list name="requirements_target">
 		</list>
 		<template_reference name="targeted_ability_option" value="options\abilities\targeted_ability_option">
-			<bool name="persist_targeted_ability" value="True" />
+			<bool name="persist_targeted_ability" value="False" />
 			<bool name="post_ability_out_of_range_stop" value="True" />
 			<bool name="range_ignore_target_far_position" value="False" />
 		</template_reference>
