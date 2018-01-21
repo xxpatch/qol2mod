@@ -1,7 +1,7 @@
 <instance description="Commando Bren Light Machine Gun" template="weapon">
 	<group name="weapon_bag">
 		<group name="accuracy">
-			<float name="near" value="0.6732" />
+			<float name="near" value="0.748" />
 			<float name="far" value="0.5697" />
 			<float name="mid" value="0.621" />
 		</group>
