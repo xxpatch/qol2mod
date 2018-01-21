@@ -10,11 +10,11 @@
 							<RelativeName>qol2.xml</RelativeName>
 						</d2p1:anyType>
 					</Children>
-					<IsExpanded>false</IsExpanded>
+					<IsExpanded>true</IsExpanded>
 					<Name>attrib</Name>
 				</d2p1:anyType>
 			</Children>
-			<IsExpanded>false</IsExpanded>
+			<IsExpanded>true</IsExpanded>
 		</d2p1:anyType>
 		<d2p1:anyType i:type="TableOfContents">
 			<Alias>Locale</Alias>
@@ -39,10 +39,10 @@
 					<Dependencies />
 					<Description></Description>
 					<Hidden>false</Hidden>
-					<Name>QoL Additions Mod</Name>
+					<Name>QoL Additions Mod 1.1</Name>
 				</d2p1:anyType>
 			</Children>
-			<IsExpanded>false</IsExpanded>
+			<IsExpanded>true</IsExpanded>
 		</d2p1:anyType>
 	</Children>
 	<Guid>fb1199bb-8d5b-4f9b-9749-3fc229a3e6ee</Guid>
