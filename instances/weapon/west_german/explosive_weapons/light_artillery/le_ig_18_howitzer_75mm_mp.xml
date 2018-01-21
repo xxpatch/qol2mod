@@ -43,7 +43,7 @@
 				<float name="angle_left" value="0" />
 				<float name="angle_right" value="0" />
 				<enum name="area_type" value="circle" />
-				<float name="radius" value="3" />
+				<float name="radius" value="4" />
 			</group>
 			<group name="damage">
 				<float name="far" value="0.2" />
@@ -176,7 +176,7 @@
 			</group>
 			<group name="tp_garrison_cover">
 				<float name="accuracy_multiplier" value="1" />
-				<float name="damage_multiplier" value="0.35" />
+				<float name="damage_multiplier" value="0.4" />
 				<float name="penetration_multiplier" value="1" />
 				<float name="suppression_multiplier" value="0" />
 			</group>

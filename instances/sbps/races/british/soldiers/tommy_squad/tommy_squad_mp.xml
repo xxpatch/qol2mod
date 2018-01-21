@@ -693,7 +693,7 @@
 							<int name="ui_position" value="11" />
 						</group>
 						<group name="construction_item">
-							<instance_reference name="ebp" value="ebps\races\british\buildings\emplacements\brit_3_inch_mortar_emplacement_commander_mp" />
+							<instance_reference name="ebp" value="ebps\races\british\buildings\emplacements\brit_3_inch_mortar_emplacement_commander_mp" mod="fb1199bb8d5b4f9b97493fc229a3e6ee" />
 							<int name="ui_position" value="22" />
 						</group>
 						<group name="construction_item">
