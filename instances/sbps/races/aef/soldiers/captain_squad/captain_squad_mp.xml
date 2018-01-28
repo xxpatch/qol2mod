@@ -191,7 +191,7 @@
 					<bool name="is_present" value="True" />
 					<float name="max_completed" value="100" />
 					<float name="min_completed" value="1" />
-					<instance_reference name="upgrade_name" value="upgrade\aef\research\captain_dispatched_upgrade_mp" />
+					<instance_reference name="upgrade_name" value="upgrade\aef\research\captain_dispatched_upgrade_mp" mod="fb1199bb8d5b4f9b97493fc229a3e6ee" />
 				</template_reference>
 			</list>
 		</template_reference>
@@ -952,7 +952,7 @@
 			<enum name="shared_veterancy_type" value="tp_commonwealth_infantry" />
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_population_ext">
-			<float name="personnel_pop" value="3" />
+			<float name="personnel_pop" value="2" />
 		</template_reference>
 	</list>
 	<uniqueid name="pbgid" value="2620" />
