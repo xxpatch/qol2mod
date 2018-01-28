@@ -162,7 +162,7 @@
 			<list name="unit_list">
 				<group name="loadout_data">
 					<float name="num" value="2" />
-					<instance_reference name="type" value="ebps\races\soviet\soldiers\sniper\sniper_mp" />
+					<instance_reference name="type" value="ebps\races\soviet\soldiers\sniper\sniper_mp" mod="fb1199bb8d5b4f9b97493fc229a3e6ee" />
 				</group>
 			</list>
 			<float name="squad_female_chance" value="0.5" />
