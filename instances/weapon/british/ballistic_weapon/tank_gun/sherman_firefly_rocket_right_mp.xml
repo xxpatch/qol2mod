@@ -299,15 +299,15 @@
 						<template_reference name="action" value="action\trigger_critical_action">
 							<float name="remove_at_health" value="1" />
 							<instance_reference name="critical" value="critical\vehicle_crew_stunned_2.5sec" />
-							<uniqueid name="id" value="1073741972" />
+							<uniqueid name="id" value="1073743977" />
 						</template_reference>
 						<template_reference name="action" value="action\trigger_critical_action">
 							<float name="remove_at_health" value="1" />
 							<instance_reference name="critical" value="critical\vehicle_blind" />
-							<uniqueid name="id" value="1073741973" />
+							<uniqueid name="id" value="1073743978" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073741974" />
+					<uniqueid name="id" value="1073743979" />
 					<bool name="fire_and_forget_non_global" value="False" />
 					<template_reference name="ui_help_text" value="tables\help_text_phrase">
 						<int name="phrase_order" value="0" />

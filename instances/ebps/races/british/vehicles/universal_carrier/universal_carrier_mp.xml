@@ -124,7 +124,7 @@
 					<uniqueid name="id" value="1073742175" />
 				</template_reference>
 			</list>
-			<float name="armor" value="7.5" />
+			<float name="armor" value="6" />
 			<float name="rear_armor" value="4.1" />
 			<float name="target_size" value="15" />
 			<bool name="dies_from_broken_ice" value="True" />

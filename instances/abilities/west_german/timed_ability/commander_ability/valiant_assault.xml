@@ -17,7 +17,7 @@
 					</group>
 					<list name="action_table">
 						<template_reference name="action" value="action\apply_modifiers_action">
-							<float name="duration" value="60" />
+							<float name="duration" value="30" />
 							<bool name="permanent" value="False" />
 							<list name="modifiers">
 								<template_reference name="modifier" value="modifiers\accuracy_weapon_modifier">
@@ -177,7 +177,7 @@
 							</list>
 							<list name="action_table">
 								<template_reference name="action" value="action\apply_modifiers_action">
-									<float name="duration" value="60" />
+									<float name="duration" value="30" />
 									<bool name="permanent" value="False" />
 									<list name="modifiers">
 										<template_reference name="modifier" value="modifiers\posture_speed_modifier">
@@ -238,7 +238,7 @@
 		<float name="cursor_ghost_blueprint_angle" value="0" />
 		<bool name="disable_combat" value="False" />
 		<bool name="disable_when_active" value="True" />
-		<float name="duration_time" value="45" />
+		<float name="duration_time" value="30" />
 		<bool name="enable_in_building" value="False" />
 		<bool name="enable_in_vehicle" value="False" />
 		<bool name="engage_combat" value="False" />

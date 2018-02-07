@@ -4,7 +4,7 @@
 			<list name="end_self_actions">
 				<template_reference name="action" value="action\force_reload_action">
 					<int name="hardpoint_index" value="1" />
-					<uniqueid name="id" value="1073742808" />
+					<uniqueid name="id" value="1073743960" />
 				</template_reference>
 				<template_reference name="action" value="action\animator_set_state">
 					<bool name="apply_to_leader_only" value="False" />
@@ -12,13 +12,13 @@
 					<bool name="retrigger" value="False" />
 					<string name="state_machine_name" value="main_gun_tulip_warmup_fx" />
 					<string name="undo_action_state_name" value="" />
-					<uniqueid name="id" value="1073742809" />
+					<uniqueid name="id" value="1073743961" />
 				</template_reference>
 				<template_reference name="action" value="action\upgrade_add">
 					<bool name="apply_to_entities_in_squad" value="False" />
 					<bool name="trigger_publish_event" value="False" />
 					<instance_reference name="upgrade" value="upgrade\british\items\firefly_tulip_reload" />
-					<uniqueid name="id" value="1073742810" />
+					<uniqueid name="id" value="1073743962" />
 				</template_reference>
 			</list>
 			<list name="end_target_actions">
@@ -30,7 +30,7 @@
 					<bool name="retrigger" value="False" />
 					<string name="state_machine_name" value="main_gun_tulip_warmup_fx" />
 					<string name="undo_action_state_name" value="" />
-					<uniqueid name="id" value="1073742811" />
+					<uniqueid name="id" value="1073743963" />
 				</template_reference>
 				<template_reference name="action" value="action\delay">
 					<float name="delay" value="0.125" />
@@ -67,10 +67,10 @@
 									<bool name="retrigger" value="False" />
 									<string name="state_machine_name" value="turret_spotter_state" />
 									<string name="undo_action_state_name" value="on" />
-									<uniqueid name="id" value="1073742812" />
+									<uniqueid name="id" value="1073743964" />
 								</template_reference>
 							</list>
-							<uniqueid name="id" value="1073742813" />
+							<uniqueid name="id" value="1073743965" />
 							<bool name="fire_and_forget_non_global" value="False" />
 							<template_reference name="ui_help_text" value="tables\help_text_phrase">
 								<int name="phrase_order" value="0" />
@@ -78,13 +78,13 @@
 							</template_reference>
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073742814" />
+					<uniqueid name="id" value="1073743966" />
 					<bool name="can_prevent_refund" value="False" />
 				</template_reference>
 			</list>
 			<list name="start_target_actions">
 				<template_reference name="action" value="action\sequence_action">
-					<uniqueid name="id" value="1073742815" />
+					<uniqueid name="id" value="1073743967" />
 					<list name="action_list_sequences">
 						<list name="actions">
 							<template_reference name="action" value="action\artillery_attack">
@@ -97,7 +97,7 @@
 								<float name="num_salvo" value="1" />
 								<float name="use_hardpoint" value="3" />
 								<bool name="face_to_target" value="False" />
-								<uniqueid name="id" value="1073742816" />
+								<uniqueid name="id" value="1073743968" />
 								<bool name="target_override_direction_times_max_range" value="True" />
 							</template_reference>
 						</list>
@@ -112,7 +112,7 @@
 								<float name="num_salvo" value="1" />
 								<float name="use_hardpoint" value="4" />
 								<bool name="face_to_target" value="False" />
-								<uniqueid name="id" value="1073742817" />
+								<uniqueid name="id" value="1073743969" />
 								<bool name="target_override_direction_times_max_range" value="True" />
 							</template_reference>
 						</list>

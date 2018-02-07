@@ -77,7 +77,7 @@
 						<enum name="application_type" value="apply_to_squad_type" />
 						<bool name="exclusive" value="False" />
 						<string name="modifier_id" value="" />
-						<instance_reference name="target_type_name" value="sbps\races\british\soldiers\sapper_squad\sapper_squad_mp" />
+						<instance_reference name="target_type_name" value="sbps\races\british\soldiers\sapper_squad\sapper_squad_mp" mod="fb1199bb8d5b4f9b97493fc229a3e6ee" />
 						<enum name="usage_type" value="addition" />
 						<float name="value" value="1" />
 						<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
@@ -95,7 +95,7 @@
 						<enum name="application_type" value="apply_to_squad_type" />
 						<bool name="exclusive" value="False" />
 						<string name="modifier_id" value="" />
-						<instance_reference name="target_type_name" value="sbps\races\british\soldiers\sapper_squad\sapper_squad_recovery_mp" />
+						<instance_reference name="target_type_name" value="sbps\races\british\soldiers\sapper_squad\sapper_squad_recovery_mp" mod="fb1199bb8d5b4f9b97493fc229a3e6ee" />
 						<enum name="usage_type" value="addition" />
 						<float name="value" value="1" />
 						<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
@@ -114,15 +114,6 @@
 						<bool name="exclusive" value="False" />
 						<string name="modifier_id" value="" />
 						<instance_reference name="target_type_name" value="sbps\races\british\soldiers\tommy_squad\tommy_squad_recon_mp" />
-						<enum name="usage_type" value="addition" />
-						<float name="value" value="1" />
-						<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
-					</template_reference>
-					<template_reference name="modifier" value="modifiers\squad_size_change_modifier">
-						<enum name="application_type" value="apply_to_squad_type" />
-						<bool name="exclusive" value="False" />
-						<string name="modifier_id" value="" />
-						<instance_reference name="target_type_name" value="sbps\races\british\soldiers\tommy_squad\tommy_squad_tank_hunter_mp" />
 						<enum name="usage_type" value="addition" />
 						<float name="value" value="1" />
 						<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />

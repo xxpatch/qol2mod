@@ -342,7 +342,7 @@
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect_deep_snow_camo" />
 				<instance_reference name="ability" value="abilities\german\timed_ability\team_weapon_suppression_stun_mp" />
-				<instance_reference name="ability" value="abilities\german\timed_ability\vickers_veterancy_mp" />
+				<instance_reference name="ability" value="abilities\german\timed_ability\vickers_veterancy_mp" mod="fb1199bb8d5b4f9b97493fc229a3e6ee" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\combat_ext">
@@ -658,7 +658,7 @@
 					<float name="action" value="0" />
 					<float name="command" value="0" />
 					<float name="fuel" value="0" />
-					<float name="manpower" value="80" />
+					<float name="manpower" value="70" />
 					<float name="munition" value="0" />
 					<float name="popcap" value="0" />
 				</group>
