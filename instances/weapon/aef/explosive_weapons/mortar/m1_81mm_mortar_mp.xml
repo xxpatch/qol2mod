@@ -47,7 +47,7 @@
 			</group>
 			<group name="damage">
 				<float name="far" value="0.25" />
-				<float name="near" value="1" />
+				<float name="near" value="0.85" />
 				<float name="mid" value="0.5" />
 			</group>
 			<group name="damage_friendly">
@@ -176,7 +176,7 @@
 			</group>
 			<group name="tp_garrison_cover">
 				<float name="accuracy_multiplier" value="1" />
-				<float name="damage_multiplier" value="0.25" />
+				<float name="damage_multiplier" value="0.5" />
 				<float name="penetration_multiplier" value="1" />
 				<float name="suppression_multiplier" value="0" />
 			</group>
@@ -348,8 +348,8 @@
 		</group>
 		<group name="reload">
 			<group name="duration">
-				<float name="max" value="5" />
-				<float name="min" value="5" />
+				<float name="max" value="7" />
+				<float name="min" value="6" />
 			</group>
 			<group name="duration_multiplier">
 				<float name="far" value="1" />

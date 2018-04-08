@@ -47,7 +47,7 @@
 			</group>
 			<group name="damage">
 				<float name="far" value="0.25" />
-				<float name="near" value="1" />
+				<float name="near" value="0.85" />
 				<float name="mid" value="0.5" />
 			</group>
 			<group name="damage_friendly">
@@ -56,9 +56,9 @@
 				<float name="mid" value="0.025" />
 			</group>
 			<group name="distance">
-				<float name="far" value="3" />
+				<float name="far" value="2.75" />
 				<float name="near" value="0.75" />
-				<float name="mid" value="2" />
+				<float name="mid" value="1.5" />
 			</group>
 			<bool name="has_friendly_fire" value="True" />
 			<bool name="can_harm_shooter" value="False" />
@@ -176,7 +176,7 @@
 			</group>
 			<group name="tp_garrison_cover">
 				<float name="accuracy_multiplier" value="1" />
-				<float name="damage_multiplier" value="0.25" />
+				<float name="damage_multiplier" value="0.75" />
 				<float name="penetration_multiplier" value="1" />
 				<float name="suppression_multiplier" value="0" />
 			</group>
@@ -272,8 +272,8 @@
 			</group>
 		</group>
 		<group name="damage">
-			<float name="max" value="80" />
-			<float name="min" value="80" />
+			<float name="max" value="65" />
+			<float name="min" value="65" />
 			<list name="on_penetrated_actions">
 			</list>
 			<list name="post_damage_actions">
@@ -338,8 +338,8 @@
 			<instance_reference name="projectile" value="ebps\projectile\aef_m43a1_light_he_81mm_mortar_round_mp" />
 		</group>
 		<group name="range">
-			<float name="max" value="65" />
-			<float name="min" value="40" />
+			<float name="max" value="75" />
+			<float name="min" value="25" />
 			<group name="distance">
 				<float name="near" value="-1" />
 				<float name="far" value="-1" />
@@ -348,8 +348,8 @@
 		</group>
 		<group name="reload">
 			<group name="duration">
-				<float name="max" value="4" />
-				<float name="min" value="4" />
+				<float name="max" value="6" />
+				<float name="min" value="6" />
 			</group>
 			<group name="duration_multiplier">
 				<float name="far" value="1" />
@@ -381,7 +381,7 @@
 			<float name="tilt_scatter_chance" value="0" />
 		</group>
 		<group name="setup">
-			<float name="duration" value="0.5" />
+			<float name="duration" value="1" />
 			<bool name="has_instant_setup" value="False" />
 			<bool name="can_interrupt_setup" value="False" />
 			<float name="attach_duration" value="0" />
@@ -412,7 +412,7 @@
 			<float name="amount" value="0" />
 		</group>
 		<group name="teardown">
-			<float name="duration" value="1.1" />
+			<float name="duration" value="2" />
 		</group>
 		<group name="tracking">
 			<float name="fire_cone_angle" value="20" />

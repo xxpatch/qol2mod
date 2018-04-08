@@ -161,7 +161,7 @@
 		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext">
 			<list name="unit_list">
 				<group name="loadout_data">
-					<float name="num" value="2" />
+					<float name="num" value="1" />
 					<instance_reference name="type" value="ebps\races\soviet\soldiers\sniper\sniper_mp" mod="fb1199bb8d5b4f9b97493fc229a3e6ee" />
 				</group>
 			</list>
@@ -764,7 +764,7 @@
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\soviet\toggle_ability\sniper_hold_fire_mp" />
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect" />
-				<instance_reference name="ability" value="abilities\soviet\always_on_ability\sniper_team_in_cover_auto_camouflage_mp" />
+				<instance_reference name="ability" value="abilities\german\always_on_ability\axis_sniper_delayed_cover_auto_camouflage_mp" />
 			</list>
 			<bool name="allow_targeted_abilities_whilst_moving" value="False" />
 		</template_reference>
@@ -799,7 +799,7 @@
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_population_ext">
-			<float name="personnel_pop" value="1" />
+			<float name="personnel_pop" value="0" />
 		</template_reference>
 	</list>
 	<uniqueid name="pbgid" value="134" />

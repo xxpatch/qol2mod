@@ -152,8 +152,8 @@
 		</group>
 		<group name="cooldown">
 			<group name="duration">
-				<float name="max" value="4.8" />
-				<float name="min" value="4.8" />
+				<float name="max" value="3.25" />
+				<float name="min" value="2.75" />
 			</group>
 			<group name="duration_multiplier">
 				<float name="near" value="1" />
@@ -294,6 +294,11 @@
 						</template_reference>
 					</list>
 					<list name="action_table">
+						<template_reference name="action" value="action\trigger_critical_action">
+							<float name="remove_at_health" value="1" />
+							<instance_reference name="critical" value="critical\soldier_sniped" />
+							<uniqueid name="id" value="1073741901" />
+						</template_reference>
 						<template_reference name="action" value="action\requirement_action">
 							<bool name="check_self" value="False" />
 							<bool name="global_fire_and_forget_on_success" value="False" />
@@ -346,11 +351,6 @@
 								<int name="phrase_order" value="0" />
 								<locstring name="phrase" value="0" />
 							</template_reference>
-						</template_reference>
-						<template_reference name="action" value="action\trigger_critical_action">
-							<float name="remove_at_health" value="1" />
-							<instance_reference name="critical" value="critical\soldier_sniped" />
-							<uniqueid name="id" value="1073741901" />
 						</template_reference>
 					</list>
 					<uniqueid name="id" value="1073741902" />
@@ -596,7 +596,7 @@
 		</group>
 		<group name="reload">
 			<group name="duration">
-				<float name="max" value="6" />
+				<float name="max" value="4.5" />
 				<float name="min" value="4.5" />
 			</group>
 			<group name="duration_multiplier">
@@ -605,8 +605,8 @@
 				<float name="mid" value="1" />
 			</group>
 			<group name="frequency">
-				<float name="max" value="4" />
-				<float name="min" value="4" />
+				<float name="max" value="9" />
+				<float name="min" value="9" />
 			</group>
 			<list name="on_reload_actions">
 			</list>
