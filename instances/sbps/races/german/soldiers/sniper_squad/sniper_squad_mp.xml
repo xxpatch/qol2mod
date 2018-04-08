@@ -262,7 +262,7 @@
 						<float name="recover_multiplier" value="0.5" />
 					</group>
 					<group name="tp_open">
-						<float name="recover_multiplier" value="0.75" />
+						<float name="recover_multiplier" value="0.65" />
 					</group>
 					<group name="tp_smoke">
 						<float name="recover_multiplier" value="1" />

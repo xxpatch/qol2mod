@@ -204,6 +204,14 @@
 					<bool name="kill" value="False" />
 					<uniqueid name="id" value="1073742031" />
 				</template_reference>
+				<template_reference name="action" value="action\animator_set_state">
+					<string name="do_action_state_name" value="on" />
+					<string name="state_machine_name" value="Upgrade_Armor" />
+					<bool name="apply_to_leader_only" value="False" />
+					<bool name="retrigger" value="False" />
+					<string name="undo_action_state_name" value="" />
+					<uniqueid name="id" value="1073744363" />
+				</template_reference>
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\cost_ext">
@@ -243,8 +251,8 @@
 			<instance_reference name="wreck_entity" value="" />
 			<list name="death_actions">
 			</list>
-			<float name="armor" value="270" />
-			<float name="rear_armor" value="110" />
+			<float name="armor" value="320" />
+			<float name="rear_armor" value="90" />
 			<float name="target_size" value="24" />
 			<bool name="dies_from_broken_ice" value="True" />
 			<list name="criticals">

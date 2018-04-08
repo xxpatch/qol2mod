@@ -17,6 +17,29 @@
 					<uniqueid name="id" value="1073743241" />
 					<bool name="can_prevent_refund" value="True" />
 				</template_reference>
+				<template_reference name="action" value="action\timed_action">
+					<float name="duration" value="5" />
+					<bool name="fire_and_forget" value="True" />
+					<list name="subactions">
+						<template_reference name="action" value="action\apply_modifiers_action">
+							<float name="duration" value="0" />
+							<bool name="permanent" value="False" />
+							<list name="modifiers">
+								<template_reference name="modifier" value="modifiers\speed_maximum_modifier">
+									<enum name="application_type" value="apply_to_entity" />
+									<bool name="exclusive" value="False" />
+									<string name="modifier_id" value="engine_destroy" />
+									<string name="target_type_name" value="" />
+									<enum name="usage_type" value="multiplication" />
+									<float name="value" value="0.5" />
+									<instance_reference name="tooltip" value="modifier_tooltip\speed_maximum_modifier" />
+								</template_reference>
+							</list>
+							<uniqueid name="id" value="1073744364" />
+						</template_reference>
+					</list>
+					<uniqueid name="id" value="1073744365" />
+				</template_reference>
 			</list>
 			<list name="end_target_actions">
 			</list>
@@ -83,7 +106,7 @@
 					<uniqueid name="id" value="1073743247" />
 				</template_reference>
 				<template_reference name="action" value="action\delay">
-					<float name="delay" value="3" />
+					<float name="delay" value="5" />
 					<float name="delay_min" value="0" />
 					<bool name="progress_bar" value="False" />
 					<bool name="randomize" value="False" />
