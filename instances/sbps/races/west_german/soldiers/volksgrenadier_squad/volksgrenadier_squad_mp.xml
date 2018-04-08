@@ -1219,7 +1219,7 @@
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_population_ext">
-			<float name="personnel_pop" value="1" />
+			<float name="personnel_pop" value="2" />
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_shared_veterancy_ext">
 			<float name="multiplier_pct_self" value="1" />

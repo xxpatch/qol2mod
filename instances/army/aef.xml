@@ -287,9 +287,9 @@
 				</group>
 			</list>
 			<group name="builder_squads">
-				<instance_reference name="base_builder_squad" value="sbps\races\aef\soldiers\rear_echelon_squad\rear_echelon_squad_mp" mod="fb1199bb8d5b4f9b97493fc229a3e6ee" />
-				<instance_reference name="obs_post_builder_squad" value="sbps\races\aef\soldiers\rear_echelon_squad\rear_echelon_squad_mp" mod="fb1199bb8d5b4f9b97493fc229a3e6ee" />
-				<instance_reference name="defense_builder_squad" value="sbps\races\aef\soldiers\rear_echelon_squad\rear_echelon_squad_mp" mod="fb1199bb8d5b4f9b97493fc229a3e6ee" />
+				<instance_reference name="base_builder_squad" value="sbps\races\aef\soldiers\rear_echelon_squad\rear_echelon_squad_mp" />
+				<instance_reference name="obs_post_builder_squad" value="sbps\races\aef\soldiers\rear_echelon_squad\rear_echelon_squad_mp" />
+				<instance_reference name="defense_builder_squad" value="sbps\races\aef\soldiers\rear_echelon_squad\rear_echelon_squad_mp" />
 			</group>
 		</group>
 		<list name="team_size_point_resource_multiplier">
@@ -340,7 +340,7 @@
 				<instance_reference name="building" value="ebps\races\aef\buildings\base_building\aef_base_stamper" />
 				<list name="starting_squads">
 					<group name="starting_squad">
-						<instance_reference name="squad" value="sbps\races\aef\soldiers\rear_echelon_squad\rear_echelon_squad_mp" mod="fb1199bb8d5b4f9b97493fc229a3e6ee" />
+						<instance_reference name="squad" value="sbps\races\aef\soldiers\rear_echelon_squad\rear_echelon_squad_mp" />
 						<bool name="check_requirements" value="False" />
 					</group>
 				</list>
@@ -352,7 +352,7 @@
 				<instance_reference name="building" value="ebps\races\aef\buildings\base_building\aef_base_stamper" />
 				<list name="starting_squads">
 					<group name="starting_squad">
-						<instance_reference name="squad" value="sbps\races\aef\soldiers\rear_echelon_squad\rear_echelon_squad_mp" mod="fb1199bb8d5b4f9b97493fc229a3e6ee" />
+						<instance_reference name="squad" value="sbps\races\aef\soldiers\rear_echelon_squad\rear_echelon_squad_mp" />
 						<bool name="check_requirements" value="False" />
 					</group>
 				</list>
@@ -404,7 +404,7 @@
 				<instance_reference name="building" value="ebps\races\aef\buildings\base_building\aef_base_stamper" />
 				<list name="starting_squads">
 					<group name="starting_squad">
-						<instance_reference name="squad" value="sbps\races\aef\soldiers\rear_echelon_squad\rear_echelon_squad_mp" mod="fb1199bb8d5b4f9b97493fc229a3e6ee" />
+						<instance_reference name="squad" value="sbps\races\aef\soldiers\rear_echelon_squad\rear_echelon_squad_mp" />
 						<bool name="check_requirements" value="False" />
 					</group>
 				</list>
