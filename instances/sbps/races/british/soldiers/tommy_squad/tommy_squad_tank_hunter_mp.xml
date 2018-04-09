@@ -176,8 +176,6 @@
 		<template_reference name="squadexts" value="sbpextensions\squad_upgrade_ext">
 			<float name="number_of_slots" value="-1" />
 			<list name="upgrades">
-				<instance_reference name="upgrade" value="upgrade\british\items\tommy_medical_supplies" />
-				<instance_reference name="upgrade" value="upgrade\british\items\tommy_pyrotechnics_supplies" />
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_combat_behaviour_ext">

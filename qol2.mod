@@ -39,7 +39,7 @@
 					<Dependencies />
 					<Description></Description>
 					<Hidden>false</Hidden>
-					<Name>QoL Additions Mod 2</Name>
+					<Name>QoL Additions Mod 2.1</Name>
 				</d2p1:anyType>
 			</Children>
 			<IsExpanded>true</IsExpanded>
