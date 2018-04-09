@@ -618,7 +618,7 @@
 					<float name="parent_hardpoint" value="1" />
 					<list name="weapon_table">
 					</list>
-					<bool name="receives_attack_commands" value="False" />
+					<bool name="receives_attack_commands" value="True" />
 				</group>
 				<group name="hardpoint">
 					<float name="parent_hardpoint" value="1" />
@@ -639,7 +639,7 @@
 							<instance_reference name="weapon" value="" />
 						</group>
 					</list>
-					<bool name="receives_attack_commands" value="False" />
+					<bool name="receives_attack_commands" value="True" />
 				</group>
 			</list>
 			<int name="sight_hardpoint" value="-1" />
