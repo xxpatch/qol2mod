@@ -659,7 +659,7 @@
 				<instance_reference name="ability" value="abilities\german\modal_ability\commander_ability\jaeger_interrogation" />
 				<instance_reference name="ability" value="abilities\german\always_on_ability\commander_ability\ambush_camouflage_upgrade" />
 				<instance_reference name="ability" value="abilities\german\toggle_ability\commander_ability\ambush_camo_hold_fire_mp" />
-				<instance_reference name="ability" value="abilities\german\modal_ability\commander_ability\german_hulldown_ability" />
+				<instance_reference name="ability" value="abilities\german\modal_ability\commander_ability\german_hulldown_ability" mod="fb1199bb8d5b4f9b97493fc229a3e6ee" />
 				<instance_reference name="ability" value="abilities\german\modal_ability\infantry_medkits_mp" />
 				<instance_reference name="ability" value="abilities\german\timed_ability\retreat_to_forward_hq" />
 				<instance_reference name="ability" value="abilities\german\timed_ability\stormtrooper_sprint_mp" />

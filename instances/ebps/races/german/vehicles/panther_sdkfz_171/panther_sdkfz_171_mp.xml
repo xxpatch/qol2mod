@@ -72,15 +72,6 @@
 									<float name="value" value="1.25" />
 									<instance_reference name="tooltip" value="modifier_tooltip\range_weapon_modifier" />
 								</template_reference>
-								<template_reference name="modifier" value="modifiers\reload_weapon_modifier">
-									<enum name="application_type" value="apply_to_weapon" />
-									<bool name="exclusive" value="False" />
-									<string name="modifier_id" value="" />
-									<string name="target_type_name" value="hardpoint_01" />
-									<enum name="usage_type" value="multiplication" />
-									<float name="value" value="0.8" />
-									<instance_reference name="tooltip" value="modifier_tooltip\reload_weapon_modifier" />
-								</template_reference>
 							</list>
 							<uniqueid name="id" value="1073741988" />
 						</template_reference>
@@ -394,7 +385,7 @@
 			<instance_reference name="wreck_entity" value="ebps\environment\art_ambient\objects\vehicles\wrecked_vehicles\wrecked_panther_sdkfz_171" />
 			<list name="death_actions">
 			</list>
-			<float name="armor" value="320" />
+			<float name="armor" value="260" />
 			<float name="rear_armor" value="90" />
 			<float name="target_size" value="24" />
 			<bool name="dies_from_broken_ice" value="True" />

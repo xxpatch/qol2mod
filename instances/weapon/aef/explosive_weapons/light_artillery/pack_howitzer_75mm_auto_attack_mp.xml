@@ -338,8 +338,8 @@
 			<instance_reference name="projectile" value="ebps\projectile\aef_pack_howitzer_75mm_round_mp" />
 		</group>
 		<group name="range">
-			<float name="max" value="90" />
-			<float name="min" value="30" />
+			<float name="max" value="80" />
+			<float name="min" value="40" />
 			<group name="distance">
 				<float name="near" value="40" />
 				<float name="far" value="80" />
